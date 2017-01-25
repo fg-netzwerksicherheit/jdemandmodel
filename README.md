@@ -4,7 +4,7 @@ A JAVA application to simulate the electricity demand of a dwelling.
 
 Running the program without options will simply produce an output file (CSV) which can be found in the folder data/output with simulation data for one day (10-minute-intervals). To show the available options start the application like this:
 	
-	java -jar jdm-1.0.jar --help
+	java -jar jdm-v0.1.jar --help
 
 Some examples and JUnit tests are included in the project folder, as well as a java documentation.
 
