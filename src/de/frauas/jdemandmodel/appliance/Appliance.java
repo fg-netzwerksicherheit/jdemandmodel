@@ -46,8 +46,8 @@ import de.frauas.jdemandmodel.util.RandomUtil;
  * "checkStartEvent" method.
  * </p>
  * <p>
- * The classes {@link WashingMachineCycle} and {@link WashingCycle} are used for
- * a WASHING_MACHINE and WASHER_DRYER and the only two appliances that use a
+ * The class {@link WashingCycle} is used for
+ * a WASHING_MACHINE and WASHER_DRYER, the only two appliances that use a
  * power cycle different from the {@link StandardPowerCycle}. They count as
  * group B appliances, but have the additional characteristic of not being
  * turned off, when the occupancy turns 0 (see method "nextWattage").
