@@ -82,7 +82,7 @@ public class Lighting {
 	/**
 	 * This is for deciding which house (bulb configuration) should be used when
 	 * simulating light. Passing -1 will result in a random configuration while
-	 * 1 turns the light off ("getLightingValues" will return an array of
+	 * 0 turns the light off ("getLightingValues" will return an array of
 	 * zeros).
 	 * 
 	 * @param houseNumber
