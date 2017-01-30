@@ -73,8 +73,8 @@ public enum Device {
 	DESWH(-1,28),
 	E_INST(-1,29),
 	
-	ELEC_SPACE_HEATING(-1, 32),
-	STORAGE_HEATER(-1, 31);
+	ELEC_SPACE_HEATING(-2, 32),
+	STORAGE_HEATER(-2, 31);
 	
 	private int activity;
 	private int row;
